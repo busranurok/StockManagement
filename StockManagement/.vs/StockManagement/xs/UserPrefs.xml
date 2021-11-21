@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{25D62470-2418-44D2-A5C1-C801ECFD8A18}|Default">
+  <MonoDevelop.Ide.ItemProperties.StockManagement.Core FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.StockManagement.DataAccessApi FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.StockManagement.Business FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StockManagement" expanded="True">
+            <Node name="StockManagement.Presentation" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.StockManagement.Utilities FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.StockManagement.DataAccess FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.StockManagement.Presentation FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.StockManagement.Entity FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
