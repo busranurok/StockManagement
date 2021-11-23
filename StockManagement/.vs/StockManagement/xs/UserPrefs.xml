@@ -2,12 +2,24 @@
   <MonoDevelop.Ide.ItemProperties.StockManagement.Core FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.StockManagement.DataAccessApi FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.StockManagement.Business FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="StockManagement.Presentation/Controllers/UserController.cs">
+    <Files>
+      <File FileName="StockManagement.Presentation/Views/Shared/_Layout.cshtml" Line="854" Column="19" />
+      <File FileName="StockManagement.Presentation/Startup.cs" Line="1" Column="1" />
+      <File FileName="StockManagement.Presentation/Controllers/HomeController.cs" Line="15" Column="10" />
+      <File FileName="StockManagement.Presentation/Program.cs" Line="16" Column="1" />
+      <File FileName="StockManagement.Presentation/Controllers/UserController.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StockManagement" expanded="True">
-            <Node name="StockManagement.Presentation" expanded="True" />
+            <Node name="StockManagement.Presentation" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="UserController.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -15,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.StockManagement.Utilities FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.StockManagement.DataAccess FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.StockManagement.Presentation FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.StockManagement.Presentation PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.StockManagement.Entity FirstBuild="True" />

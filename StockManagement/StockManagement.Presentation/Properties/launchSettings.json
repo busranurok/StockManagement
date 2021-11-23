@@ -18,7 +18,7 @@
     "StockManagement.Presentation": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:47284;http://localhost:23895",
+      "applicationUrl": "https://localhost:47285;http://localhost:23896",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
