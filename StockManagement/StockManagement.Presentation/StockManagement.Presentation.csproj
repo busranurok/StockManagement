@@ -9,8 +9,32 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Controllers\" />
+    <None Remove="Views\User\" />
+    <None Remove="Views\Role\" />
+    <None Remove="Views\Product\" />
+    <None Remove="Views\Order\" />
+    <None Remove="Views\ECommerce\" />
+    <None Remove="Views\Category\" />
+    <None Remove="Models\User\" />
+    <None Remove="Models\Role\" />
+    <None Remove="Models\Product\" />
+    <None Remove="Models\Order\" />
+    <None Remove="Models\ECommerce\" />
+    <None Remove="Models\Category\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Views\User\" />
+    <Folder Include="Views\Role\" />
+    <Folder Include="Views\Product\" />
+    <Folder Include="Views\Order\" />
+    <Folder Include="Views\ECommerce\" />
+    <Folder Include="Views\Category\" />
+    <Folder Include="Models\User\" />
+    <Folder Include="Models\Role\" />
+    <Folder Include="Models\Product\" />
+    <Folder Include="Models\Order\" />
+    <Folder Include="Models\ECommerce\" />
+    <Folder Include="Models\Category\" />
   </ItemGroup>
 </Project>

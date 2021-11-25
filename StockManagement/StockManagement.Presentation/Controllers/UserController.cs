@@ -15,5 +15,29 @@ namespace StockManagement.Presentation.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(Models.User.LoginViewModel model)
+        {
+            return RedirectToAction();
+        }
+
+        [HttpGet]
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Register(Models.User.RegisterViewModel model)
+        {
+            return RedirectToAction();
+        }
     }
 }
