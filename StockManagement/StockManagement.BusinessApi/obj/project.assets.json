@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccessApi/StockManagement.DataAccessApi.csproj",
-      "projectName": "StockManagement.DataAccessApi",
-      "projectPath": "/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccessApi/StockManagement.DataAccessApi.csproj",
+      "projectUniqueName": "/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.BusinessApi/StockManagement.BusinessApi.csproj",
+      "projectName": "StockManagement.BusinessApi",
+      "projectPath": "/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.BusinessApi/StockManagement.BusinessApi.csproj",
       "packagesPath": "/Users/hbo/.nuget/packages/",
-      "outputPath": "/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccessApi/obj/",
+      "outputPath": "/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.BusinessApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hbo/.config/NuGet/NuGet.Config"

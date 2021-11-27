@@ -12,5 +12,7 @@ namespace StockManagement.Entity.Concrete
         public int ProductId { get; set; }
         public User User { get; set; }
         public int CreatedUserId { get; set; }
+        public ECommerceSite ECommerceSite { get; set; }
+        public int ECommerceSiteId { get; set; }
     }
 }

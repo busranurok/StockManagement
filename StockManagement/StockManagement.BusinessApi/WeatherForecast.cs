@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StockManagement.DataAccessApi
+namespace StockManagement.BusinessApi
 {
     public class WeatherForecast
     {

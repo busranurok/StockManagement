@@ -4,4 +4,16 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Abstract\" />
+    <None Remove="Concrete\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+    <Folder Include="Concrete\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StockManagement.Entity\StockManagement.Entity.csproj" />
+    <ProjectReference Include="..\StockManagement.DataAccess\StockManagement.DataAccess.csproj" />
+  </ItemGroup>
 </Project>

@@ -4,8 +4,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:56034",
-      "sslPort": 44324
+      "applicationUrl": "http://localhost:61011",
+      "sslPort": 44301
     }
   },
   "profiles": {
@@ -17,11 +17,11 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "StockManagement.DataAccessApi": {
+    "StockManagement.BusinessApi": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",
-      "applicationUrl": "https://localhost:36644;http://localhost:25466",
+      "applicationUrl": "https://localhost:41802;http://localhost:52283",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
