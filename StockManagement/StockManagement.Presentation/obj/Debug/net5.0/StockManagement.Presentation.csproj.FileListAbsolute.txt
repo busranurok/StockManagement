@@ -46,3 +46,4 @@
 /Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/bin/Debug/net5.0/StockManagement.Entity.dll
 /Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/bin/Debug/net5.0/StockManagement.Entity.pdb
 /Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/obj/Debug/net5.0/Razor/Views/ECommerceSite/NewECommerceSite.cshtml.g.cs

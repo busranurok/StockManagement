@@ -40,8 +40,15 @@ using StockManagement.Presentation.Models.Category;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/Views/_ViewImports.cshtml"
+using StockManagement.Presentation.Models.ECommerceSite;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ea97a329198b6888c0cccb0ab5c743c1d8a5a4f0", @"/Views/User/Login.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5ea3efd8ff18f898f5d4143e4895c13636a88df8", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1efdcc3258d68c27a6d3270e53d91be6bb5d12f2", @"/Views/_ViewImports.cshtml")]
     public class Views_User_Login : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<LoginViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("rel", new global::Microsoft.AspNetCore.Html.HtmlString("stylesheet"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -93,7 +100,7 @@ using StockManagement.Presentation.Models.Category;
 #line hidden
 #nullable disable
             WriteLiteral("\n<!DOCTYPE html>\n<html lang=\"en\">\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f08238", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f08507", async() => {
                 WriteLiteral(@"
     <meta charset=""utf-8"">
     <meta name=""viewport"" content=""width=device-width, initial-scale=1"">
@@ -103,7 +110,7 @@ using StockManagement.Presentation.Models.Category;
     <link rel=""stylesheet"" href=""https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"">
     <!-- Font Awesome -->
     ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f08839", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f09108", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -118,7 +125,7 @@ using StockManagement.Presentation.Models.Category;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n    <!-- icheck bootstrap -->\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f010032", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f010301", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -133,7 +140,7 @@ using StockManagement.Presentation.Models.Category;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n    <!-- Theme style -->\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f011221", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f011490", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -160,7 +167,7 @@ using StockManagement.Presentation.Models.Category;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f013074", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f013343", async() => {
                 WriteLiteral(@"
     <div class=""login-box"">
         <div class=""login-logo"">
@@ -172,7 +179,7 @@ using StockManagement.Presentation.Models.Category;
                 <p class=""login-box-msg"">Giriş Ekranı</p>
 
                 ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f013664", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f013933", async() => {
                     WriteLiteral(@"
                     <div class=""input-group mb-3"">
                         <input type=""email"" class=""form-control"" placeholder=""Email"">
@@ -238,7 +245,7 @@ using StockManagement.Presentation.Models.Category;
     <!-- /.login-box -->
     <!-- jQuery -->
     ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f017276", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f017545", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -252,7 +259,7 @@ using StockManagement.Presentation.Models.Category;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n    <!-- Bootstrap 4 -->\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f018386", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f018655", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -266,7 +273,7 @@ using StockManagement.Presentation.Models.Category;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\n    <!-- AdminLTE App -->\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f019497", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea97a329198b6888c0cccb0ab5c743c1d8a5a4f019766", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

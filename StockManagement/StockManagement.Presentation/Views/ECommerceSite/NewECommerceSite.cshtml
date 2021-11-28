@@ -1,0 +1,22 @@
+﻿
+@model NewECommerceSiteViewModel
+
+
+@using (Html.BeginForm("NewECommerceSite", "ECommerceSite", FormMethod.Post))
+{
+    <div class="card-body">
+        <div class="form-group">
+            <strong>Alışveriş Sitesinin Adı: </strong>
+            <input asp-for="Name" type="text" class="form-control" placeholder="Alışveriş sitesinin adını giriniz...">
+        </div>
+        <div class="form-group">
+            <strong>Alışveriş Sitesinin Açıklaması: </strong>
+            <input asp-for="Description" type="text" class="form-control" placeholder="Alışveriş sitesinin açıklamasını giriniz...">
+        </div>
+    </div>
+    <!-- /.card-body -->
+
+    <div class="card-footer">
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </div>
+}

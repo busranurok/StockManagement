@@ -1,14 +1,19 @@
 ﻿<Properties StartupConfiguration="Busranur">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="StockManagement.Presentation/ServiceManager/RestSharpManager.cs">
+    <Files>
+      <File FileName="StockManagement.Presentation/Controllers/ECommerceSiteController.cs" Line="41" Column="31" />
+      <File FileName="StockManagement.BusinessApi/Controllers/ECommerceSiteController.cs" Line="38" Column="48" />
+      <File FileName="StockManagement.Presentation/Mapping/MappingProfile.cs" Line="22" Column="45" />
+      <File FileName="StockManagement.Presentation/ServiceManager/RestSharpManager.cs" Line="12" Column="10" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StockManagement" expanded="True">
             <Node name="StockManagement.Presentation" expanded="True">
-              <Node name="Views" expanded="True">
-                <Node name="User" expanded="True">
-                  <Node name="Register.cshtml" selected="True" />
-                </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="ServiceManager" expanded="True">
+                <Node name="RestSharpManager.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -34,6 +39,8 @@
       <Breakpoint file="/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.BusinessApi/Controllers/CategoryController.cs" relfile="StockManagement.BusinessApi/Controllers/CategoryController.cs" line="38" column="1" />
       <Breakpoint file="/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/Controllers/UserController.cs" relfile="StockManagement.Presentation/Controllers/UserController.cs" line="56" column="1" />
       <Breakpoint file="/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.BusinessApi/Controllers/UserController.cs" relfile="StockManagement.BusinessApi/Controllers/UserController.cs" line="38" column="1" />
+      <Breakpoint file="/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/Controllers/ECommerceSiteController.cs" relfile="StockManagement.Presentation/Controllers/ECommerceSiteController.cs" line="39" column="1" />
+      <Breakpoint file="/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.BusinessApi/Controllers/ECommerceSiteController.cs" relfile="StockManagement.BusinessApi/Controllers/ECommerceSiteController.cs" line="37" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>

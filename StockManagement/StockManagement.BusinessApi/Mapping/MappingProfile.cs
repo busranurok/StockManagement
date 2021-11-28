@@ -14,6 +14,9 @@ namespace StockManagement.BusinessApi.Mapping
 
             CreateMap<RegisterDto, User>();
             CreateMap<User, RegisterDto>();
+
+            CreateMap<ECommerceSite, InsertECommerceSiteDto>();
+            CreateMap<InsertECommerceSiteDto, ECommerceSite>();
         }
     }
 }

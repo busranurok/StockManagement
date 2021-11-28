@@ -40,8 +40,15 @@ using StockManagement.Presentation.Models.Category;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/Views/_ViewImports.cshtml"
+using StockManagement.Presentation.Models.ECommerceSite;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a5837acca078fca5878547e48a3faf92115de149", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5ea3efd8ff18f898f5d4143e4895c13636a88df8", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1efdcc3258d68c27a6d3270e53d91be6bb5d12f2", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

@@ -34,13 +34,13 @@
     <Folder Include="Views\Role\" />
     <Folder Include="Views\Product\" />
     <Folder Include="Views\Order\" />
-    <Folder Include="Views\ECommerce\" />
+    <Folder Include="Views\ECommerceSite\" />
     <Folder Include="Views\Category\" />
     <Folder Include="Models\User\" />
     <Folder Include="Models\Role\" />
     <Folder Include="Models\Product\" />
     <Folder Include="Models\Order\" />
-    <Folder Include="Models\ECommerce\" />
+    <Folder Include="Models\ECommerceSite\" />
     <Folder Include="Models\Category\" />
     <Folder Include="ServiceManager\" />
     <Folder Include="Mapping\" />

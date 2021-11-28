@@ -41,7 +41,11 @@ namespace StockManagement.BusinessApi
 
             services.AddScoped<IUserService, UserManager>();
             services.AddScoped<IUserDal, EfUserDal>();
-      
+
+
+            services.AddScoped<IECommerceSiteService, ECommerceSiteManager>();
+            services.AddScoped<IECommerceSiteDal, EfECommerceSiteDal>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

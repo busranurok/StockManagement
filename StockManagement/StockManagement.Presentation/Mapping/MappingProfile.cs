@@ -3,6 +3,7 @@ using AutoMapper;
 using StockManagement.Presentation.Models.Category;
 using StockManagement.Entity.Dtos;
 using StockManagement.Presentation.Models.User;
+using StockManagement.Presentation.Models.ECommerceSite;
 
 namespace StockManagement.Presentation.Mapping
 {
@@ -15,6 +16,10 @@ namespace StockManagement.Presentation.Mapping
 
             CreateMap<RegisterViewModel, RegisterDto>();
             CreateMap<RegisterDto, RegisterViewModel>();
+
+
+            CreateMap<NewECommerceSiteViewModel, InsertECommerceSiteDto>();
+            CreateMap<InsertECommerceSiteDto, NewECommerceSiteViewModel>();
         }
     }
 }
