@@ -1,0 +1,15 @@
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/bin/Debug/net5.0/StockManagement.DataAccess.deps.json
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/bin/Debug/net5.0/StockManagement.DataAccess.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/bin/Debug/net5.0/ref/StockManagement.DataAccess.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/bin/Debug/net5.0/StockManagement.DataAccess.pdb
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/bin/Debug/net5.0/StockManagement.Entity.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/bin/Debug/net5.0/StockManagement.Entity.pdb
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/obj/Debug/net5.0/StockManagement.DataAccess.csproj.AssemblyReference.cache
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/obj/Debug/net5.0/StockManagement.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/obj/Debug/net5.0/StockManagement.DataAccess.AssemblyInfoInputs.cache
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/obj/Debug/net5.0/StockManagement.DataAccess.AssemblyInfo.cs
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/obj/Debug/net5.0/StockManagement.DataAccess.csproj.CoreCompileInputs.cache
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/obj/Debug/net5.0/StockManagement.DataAccess.csproj.CopyComplete
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/obj/Debug/net5.0/StockManagement.DataAccess.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/obj/Debug/net5.0/ref/StockManagement.DataAccess.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.DataAccess/obj/Debug/net5.0/StockManagement.DataAccess.pdb

@@ -8,7 +8,7 @@ namespace StockManagement.DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("");
+            optionsBuilder.UseSqlServer(@"Server = 127.0.0.1; Database = StockManagement; User Id = sa; Password =MyPass@word");
         }
 
         public DbSet<User> Users { get; set; }

@@ -21,6 +21,12 @@
     <None Remove="Models\Order\" />
     <None Remove="Models\ECommerce\" />
     <None Remove="Models\Category\" />
+    <None Remove="RestSharp" />
+    <None Remove="ServiceManager\" />
+    <None Remove="AutoMapper" />
+    <None Remove="Mapping\" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -36,5 +42,18 @@
     <Folder Include="Models\Order\" />
     <Folder Include="Models\ECommerce\" />
     <Folder Include="Models\Category\" />
+    <Folder Include="ServiceManager\" />
+    <Folder Include="Mapping\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.13.0" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StockManagement.Entity\StockManagement.Entity.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>

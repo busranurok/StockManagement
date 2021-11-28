@@ -1,0 +1,22 @@
+﻿@model NewCategoryViewModel
+
+
+@using (Html.BeginForm("NewCategory", "Category", FormMethod.Post))
+{
+    <div class="card-body">
+        <div class="form-group">
+            <strong>Kategori Adı: </strong>
+            <input asp-for="Name" type="text" class="form-control" placeholder="Kategori adını giriniz...">
+        </div>
+        <div class="form-group">
+            <strong>Kategori Açıklaması: </strong>
+            <input asp-for="Description" type="text" class="form-control" placeholder="Kategori açıklamasını giriniz...">
+        </div>
+    </div>
+    <!-- /.card-body -->
+
+    <div class="card-footer">
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </div>
+}
+

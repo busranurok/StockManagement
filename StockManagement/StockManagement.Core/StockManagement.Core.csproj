@@ -8,10 +8,14 @@
     <None Remove="Results\" />
     <None Remove="Results\Abstract\" />
     <None Remove="Results\Concrete\" />
+    <None Remove="AutoMapper" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Results\" />
     <Folder Include="Results\Abstract\" />
     <Folder Include="Results\Concrete\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StockManagement.Entity\StockManagement.Entity.csproj" />
   </ItemGroup>
 </Project>

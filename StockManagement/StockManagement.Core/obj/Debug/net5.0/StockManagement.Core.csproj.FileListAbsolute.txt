@@ -1,0 +1,15 @@
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/bin/Debug/net5.0/StockManagement.Core.deps.json
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/bin/Debug/net5.0/StockManagement.Core.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/bin/Debug/net5.0/ref/StockManagement.Core.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/bin/Debug/net5.0/StockManagement.Core.pdb
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/bin/Debug/net5.0/StockManagement.Entity.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/bin/Debug/net5.0/StockManagement.Entity.pdb
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/obj/Debug/net5.0/StockManagement.Core.csproj.AssemblyReference.cache
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/obj/Debug/net5.0/StockManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/obj/Debug/net5.0/StockManagement.Core.AssemblyInfoInputs.cache
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/obj/Debug/net5.0/StockManagement.Core.AssemblyInfo.cs
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/obj/Debug/net5.0/StockManagement.Core.csproj.CoreCompileInputs.cache
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/obj/Debug/net5.0/StockManagement.Core.csproj.CopyComplete
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/obj/Debug/net5.0/StockManagement.Core.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/obj/Debug/net5.0/ref/StockManagement.Core.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Core/obj/Debug/net5.0/StockManagement.Core.pdb

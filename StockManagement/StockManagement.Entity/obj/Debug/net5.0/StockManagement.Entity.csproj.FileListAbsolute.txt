@@ -1,0 +1,12 @@
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Entity/bin/Debug/net5.0/StockManagement.Entity.deps.json
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Entity/bin/Debug/net5.0/StockManagement.Entity.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Entity/bin/Debug/net5.0/ref/StockManagement.Entity.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Entity/bin/Debug/net5.0/StockManagement.Entity.pdb
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Entity/obj/Debug/net5.0/StockManagement.Entity.csproj.AssemblyReference.cache
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Entity/obj/Debug/net5.0/StockManagement.Entity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Entity/obj/Debug/net5.0/StockManagement.Entity.AssemblyInfoInputs.cache
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Entity/obj/Debug/net5.0/StockManagement.Entity.AssemblyInfo.cs
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Entity/obj/Debug/net5.0/StockManagement.Entity.csproj.CoreCompileInputs.cache
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Entity/obj/Debug/net5.0/StockManagement.Entity.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Entity/obj/Debug/net5.0/ref/StockManagement.Entity.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Entity/obj/Debug/net5.0/StockManagement.Entity.pdb

@@ -39,3 +39,10 @@
 /Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/obj/Debug/net5.0/StockManagement.Presentation.csproj.CopyComplete
 /Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/obj/Debug/net5.0/Razor/Views/User/Login.cshtml.g.cs
 /Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/obj/Debug/net5.0/Razor/Views/User/Register.cshtml.g.cs
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/obj/Debug/net5.0/Razor/Views/Category/NewCategory.cshtml.g.cs
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/bin/Debug/net5.0/AutoMapper.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/bin/Debug/net5.0/RestSharp.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/bin/Debug/net5.0/StockManagement.Entity.dll
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/bin/Debug/net5.0/StockManagement.Entity.pdb
+/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

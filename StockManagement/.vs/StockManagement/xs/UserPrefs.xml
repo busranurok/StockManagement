@@ -1,29 +1,51 @@
-﻿<Properties StartupConfiguration="{25D62470-2418-44D2-A5C1-C801ECFD8A18}|Default">
-  <MonoDevelop.Ide.ItemProperties.StockManagement.Core FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.StockManagement.Business FirstBuild="True" />
+﻿<Properties StartupConfiguration="Busranur">
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StockManagement" expanded="True">
-            <Node name="StockManagement.Utilities" expanded="True" />
+            <Node name="StockManagement.BusinessApi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="StockManagement.DataAccess" expanded="True">
+              <Node name="Concrete" expanded="True">
+                <Node name="EntityFramework" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="StockManagement.Entity" expanded="True">
+              <Node name="Concrete" expanded="True">
+                <Node name="Category.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.StockManagement.Utilities FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.StockManagement.DataAccess FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.StockManagement.Presentation PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>StockManagement.DataAccessApi/StockManagement.DataAccessApi.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.StockManagement.BusinessApi FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.StockManagement.BusinessApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.StockManagement.Entity FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.BusinessApi/Controllers/HomeController.cs" relfile="StockManagement.BusinessApi/Controllers/HomeController.cs" line="20" column="1" />
+      <Breakpoint file="/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.BusinessApi/Controllers/HomeController.cs" relfile="StockManagement.BusinessApi/Controllers/HomeController.cs" line="26" column="1" />
+      <Breakpoint file="/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/Controllers/CategoryController.cs" relfile="StockManagement.Presentation/Controllers/CategoryController.cs" line="38" column="1" />
+      <Breakpoint file="/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/Controllers/CategoryController.cs" relfile="StockManagement.Presentation/Controllers/CategoryController.cs" line="42" column="1" />
+      <Breakpoint file="/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.Presentation/ServiceManager/RestSharpManager.cs" relfile="StockManagement.Presentation/ServiceManager/RestSharpManager.cs" line="20" column="1" />
+      <Breakpoint file="/Users/hbo/Desktop/BootcampProject/StockManagement/StockManagement/StockManagement/StockManagement.BusinessApi/Controllers/CategoryController.cs" relfile="StockManagement.BusinessApi/Controllers/CategoryController.cs" line="38" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Busranur" Name="Busranur">
+      <Items>
+        <StartupItem ItemId="{43FDEE94-9F5C-41B5-9E94-8547FEF2DE8F}" ItemName="StockManagement.BusinessApi" ConfigurationId="Default" />
+        <StartupItem ItemId="{25D62470-2418-44D2-A5C1-C801ECFD8A18}" ItemName="StockManagement.Presentation" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
 </Properties>

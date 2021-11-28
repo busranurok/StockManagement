@@ -10,6 +10,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using StockManagement.Business.Abstract;
+using StockManagement.Business.Concrete;
+using AutoMapper;
+using StockManagement.DataAccess.Abstract;
+using StockManagement.DataAccess.Concrete.EntityFramework;
 
 namespace StockManagement.BusinessApi
 {
@@ -27,6 +32,13 @@ namespace StockManagement.BusinessApi
         {
 
             services.AddControllers();
+            //Automapper dependencyInjection yapıyor. IMapper dan bir nesne çağırmak için.
+            services.AddAutoMapper(typeof(Startup));
+
+            //Dependency injection ile controller ların constructure metodunda ICategoryService tipinde bir parametre varsa oraya CategoryManager nesnesi istediğimizi söylüyoruz
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<ICategoryDal, EfCategoryDal>();
+      
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +59,8 @@ namespace StockManagement.BusinessApi
             {
                 endpoints.MapControllers();
             });
+
+
         }
     }
 }
