@@ -2,6 +2,7 @@
 using AutoMapper;
 using StockManagement.Presentation.Models.Category;
 using StockManagement.Entity.Dtos;
+using StockManagement.Presentation.Models.User;
 
 namespace StockManagement.Presentation.Mapping
 {
@@ -11,6 +12,9 @@ namespace StockManagement.Presentation.Mapping
         {
             CreateMap<NewCategoryViewModel, InsertCategoryDto>();
             CreateMap<InsertCategoryDto, NewCategoryViewModel>();
+
+            CreateMap<RegisterViewModel, RegisterDto>();
+            CreateMap<RegisterDto, RegisterViewModel>();
         }
     }
 }

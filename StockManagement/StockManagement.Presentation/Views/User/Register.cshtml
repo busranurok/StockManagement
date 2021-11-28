@@ -4,6 +4,23 @@
     Layout = null;
 
 }
+
+@{
+    var roles = (List<UserRegisterViewRoleModel>)ViewBag.Roles;
+    var roleDropDownData = new List<SelectListItem>();
+
+    roleDropDownData.Add(new SelectListItem() { Text = "Seçiniz...", Value = "0" });
+
+    foreach (var role in roles)
+    {
+        var item = new SelectListItem();
+        item.Text = role.RoleName;
+        item.Value = role.RoleId.ToString();
+        roleDropDownData.Add(item);
+    }
+
+}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,6 +37,8 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="~/dist/css/adminlte.min.css">
 </head>
+
+
 <body class="hold-transition register-page">
     <div class="register-box">
         <div class="register-logo">
@@ -30,9 +49,10 @@
             <div class="card-body register-card-body">
                 <p class="login-box-msg">Kayıt Ekranı</p>
 
-                <form action="../../index.html" method="post">
+                @using (Html.BeginForm("Register", "User", FormMethod.Post))
+                {
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Full name">
+                        <input asp-for="Name" type="text" class="form-control" placeholder="Adınız...">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-user"></span>
@@ -40,7 +60,15 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="email" class="form-control" placeholder="Email">
+                        <input asp-for="Lastname" type="text" class="form-control" placeholder="Soyadınız...">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-user"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input asp-for="Email" type="email" class="form-control" placeholder="Epostanız...">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-envelope"></span>
@@ -48,7 +76,7 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="password" class="form-control" placeholder="Password">
+                        <input asp-for="Password" type="password" class="form-control" placeholder="Şifreniz...">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-lock"></span>
@@ -56,12 +84,15 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="password" class="form-control" placeholder="Retype password">
+                        <input asp-for="PasswordAgain" type="password" class="form-control" placeholder="Şifrenizin tekrarı...">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-lock"></span>
                             </div>
                         </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        @Html.DropDownListFor(r => r.RoleId, roleDropDownData, htmlAttributes: new { @class = "form-control" })
                     </div>
                     <div class="row">
                         <div class="col-4">
@@ -69,9 +100,9 @@
                         </div>
                         <!-- /.col -->
                     </div>
-                </form>
+                }
 
-                <a href="login.html" class="text-center">Zaten üyeyim.</a>
+                @Html.ActionLink("Zaten Üyeyim.", "Login", "User")
             </div>
             <!-- /.form-box -->
         </div><!-- /.card -->
@@ -84,5 +115,6 @@
     <!-- AdminLTE App -->
     <script src="~/dist/js/adminlte.min.js"></script>
 </body>
+}
 </html>
 

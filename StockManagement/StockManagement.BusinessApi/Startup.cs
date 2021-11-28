@@ -38,6 +38,9 @@ namespace StockManagement.BusinessApi
             //Dependency injection ile controller ların constructure metodunda ICategoryService tipinde bir parametre varsa oraya CategoryManager nesnesi istediğimizi söylüyoruz
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<ICategoryDal, EfCategoryDal>();
+
+            services.AddScoped<IUserService, UserManager>();
+            services.AddScoped<IUserDal, EfUserDal>();
       
         }
 

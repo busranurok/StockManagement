@@ -11,6 +11,9 @@ namespace StockManagement.BusinessApi.Mapping
         {
             CreateMap<Category, InsertCategoryDto>();
             CreateMap<InsertCategoryDto, Category>();
+
+            CreateMap<RegisterDto, User>();
+            CreateMap<User, RegisterDto>();
         }
     }
 }
